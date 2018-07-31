@@ -4,13 +4,13 @@
 <script src="aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
-    <!--<a-assets>
-      <img id="my-image" src="marcelImg.png">
-    </a-assets>-->
-    <a-image src="marcelImg.png" rotation="-60 0 0" position="0 0 -1" width="1" height="1.3"  material='opacity: 0.7;'></a-image>
+    <a-assets>
+      <img id="my-image" src="marcelImg.png"  material='opacity: 0.2;'>
+    </a-assets>
+    <a-image src="#my-image" rotation="-60 0 0" position="0 0 -1" width="1" height="1.3"  material='opacity: 0.7;'></a-image>
 
     <a-plane position="1.5 0 -1" width="2" height="1.3" rotation="-60 0 0" color="#2B2B5C" material='opacity: 0.7;'>
-      <a-text  position="-0.85 0.45" scale="1.5 1.4" value="Marcel Buob"></a-text>
+      <a-text  position="-0.85 0.45" scale="1.4" value="Marcel Buob"></a-text>
       <a-text  position="-0.8 0" value="New Technology"></a-text>
       <a-text  position="-0.7 -0.25" value="Developer"></a-text>
     </a-plane>
